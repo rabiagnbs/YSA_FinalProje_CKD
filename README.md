@@ -23,7 +23,6 @@ Bu proje, sağlık alanında erken teşhis ve doğru sınıflandırma için öne
 
 Aynı zamanda projede Tkinter kullanılarak bir grafiksel kullanıcı arayüzü (GUI) başlatılır. Bu sayede kullanıcıdan hidden_layer_sizes (gizli katman büyüklükleri) ve max_iter (maksimum iterasyon sayısı) parametreleri alınır. Model eğitildikten sonra sonuçlar hem GUI üzerinde bir messagebox aracılığıyla kullanıcılara gösterilir hem de ekran çıktısı olarak yazdırılır. 
 ![GUI Arayüzü](https://github.com/rabiagnbs/YSA_FinalProje_CKD/blob/main/Resim1.png?raw=true)
-<img src="Resim1.png" alt="MLP Classifier GUI" width="100"/>
 ![Sonuçların Mesaj Olarak Gösterilmesi](https://github.com/rabiagnbs/YSA_FinalProje_CKD/blob/main/Resim2.png?raw=true)
 
 
