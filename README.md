@@ -54,4 +54,4 @@ Ardından, modelin doğruluğunu değerlendirmek için cross_val_score fonksiyon
 
 <img src="Resim4.png" alt="Confusion Matrix" width="400"/>
 
-# Bu proje, sağlık alanında erken teşhis ve doğru sınıflandırma için önemli bir adım olabilir, çünkü erken aşamada teşhis edilen CKD, tedavi sürecinde büyük fark yaratabilir.
+### Bu proje, sağlık alanında erken teşhis ve doğru sınıflandırma için önemli bir adım olabilir, çünkü erken aşamada teşhis edilen CKD, tedavi sürecinde büyük fark yaratabilir.
