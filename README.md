@@ -22,11 +22,13 @@ Proje sonunda, kullanıcının girdiği sağlık verileriyle bir kişinin Kronik
 Bu proje, sağlık alanında erken teşhis ve doğru sınıflandırma için önemli bir adım olabilir, çünkü erken aşamada teşhis edilen CKD, tedavi sürecinde büyük fark yaratabilir.
 
 Aynı zamanda projede Tkinter kullanılarak bir grafiksel kullanıcı arayüzü (GUI) başlatılır. Bu sayede kullanıcıdan hidden_layer_sizes (gizli katman büyüklükleri) ve max_iter (maksimum iterasyon sayısı) parametreleri alınır. Model eğitildikten sonra sonuçlar hem GUI üzerinde bir messagebox aracılığıyla kullanıcılara gösterilir hem de ekran çıktısı olarak yazdırılır. 
-![GUI Arayüzü](https://github.com/rabiagnbs/YSA_FinalProje_CKD/blob/main/Resim1.png?raw=true)
+
+<img src="Resim1.png" alt="MLP Classifier GUI" width="400"/>
 ![Sonuçların Mesaj Olarak Gösterilmesi](https://github.com/rabiagnbs/YSA_FinalProje_CKD/blob/main/Resim2.png?raw=true)
 
 
 Ardından, modelin doğruluğunu değerlendirmek için cross_val_score fonksiyonu ile 5 katlı ve 10 katlı çapraz doğrulama (cross-validation) gerçekleştirilir ve sonuçlar ekranda gösterilir. Son olarak, modelin eğitim sürecindeki kayıp (loss) eğrisinin görselleştirilmesi için matplotlib kütüphanesi kullanılarak eğitim kaybı grafiği çizilir ve kullanıcıya sunulur. 
+
 ![Loss Eğrisi](https://github.com/rabiagnbs/YSA_FinalProje_CKD/blob/main/Resim3.png?raw=true)
 ![Confision Matrix](https://github.com/rabiagnbs/YSA_FinalProje_CKD/blob/main/Resim4.png?raw=true)
 
