@@ -20,9 +20,9 @@ Kronik Böbrek Hastalığı (CKD), böbreklerin uzun süreli olarak zarar görme
 ## Projenin Çıktısı:
 Proje sonunda, kullanıcının girdiği sağlık verileriyle bir kişinin Kronik Böbrek Hastalığına sahip olup olmadığı tahmin edilecektir. Modelin doğruluğu, classification report ve confusion matrix gibi performans metrikleriyle değerlendirilecektir. Ayrıca, cross-validation ve GridSearchCV gibi yöntemlerle modelin parametreleri optimize edilecektir.
 Bu proje, sağlık alanında erken teşhis ve doğru sınıflandırma için önemli bir adım olabilir, çünkü erken aşamada teşhis edilen CKD, tedavi sürecinde büyük fark yaratabilir.
-![GUI Arayüzü](https://github.com/rabiagnbs/YSA_FinalProje_CKD/blob/main/Resim1.png?raw=true)
 
 Aynı zamanda projede Tkinter kullanılarak bir grafiksel kullanıcı arayüzü (GUI) başlatılır. Bu sayede kullanıcıdan hidden_layer_sizes (gizli katman büyüklükleri) ve max_iter (maksimum iterasyon sayısı) parametreleri alınır. Model eğitildikten sonra sonuçlar hem GUI üzerinde bir messagebox aracılığıyla kullanıcılara gösterilir hem de ekran çıktısı olarak yazdırılır. 
+![GUI Arayüzü](https://github.com/rabiagnbs/YSA_FinalProje_CKD/blob/main/Resim1.png?raw=true)
 
 Ardından, modelin doğruluğunu değerlendirmek için cross_val_score fonksiyonu ile 5 katlı ve 10 katlı çapraz doğrulama (cross-validation) gerçekleştirilir ve sonuçlar ekranda gösterilir. Son olarak, modelin eğitim sürecindeki kayıp (loss) eğrisinin görselleştirilmesi için matplotlib kütüphanesi kullanılarak eğitim kaybı grafiği çizilir ve kullanıcıya sunulur. 
 
